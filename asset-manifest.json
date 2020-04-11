@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fire-alert-web/static/css/main.1672f68a.chunk.css",
-    "main.js": "/fire-alert-web/static/js/main.5e163159.chunk.js",
-    "main.js.map": "/fire-alert-web/static/js/main.5e163159.chunk.js.map",
+    "main.js": "/fire-alert-web/static/js/main.57f62816.chunk.js",
+    "main.js.map": "/fire-alert-web/static/js/main.57f62816.chunk.js.map",
     "runtime-main.js": "/fire-alert-web/static/js/runtime-main.fd21e1fa.js",
     "runtime-main.js.map": "/fire-alert-web/static/js/runtime-main.fd21e1fa.js.map",
     "static/css/2.89f067aa.chunk.css": "/fire-alert-web/static/css/2.89f067aa.chunk.css",
     "static/js/2.8b002ed0.chunk.js": "/fire-alert-web/static/js/2.8b002ed0.chunk.js",
     "static/js/2.8b002ed0.chunk.js.map": "/fire-alert-web/static/js/2.8b002ed0.chunk.js.map",
     "index.html": "/fire-alert-web/index.html",
-    "precache-manifest.3ce72ebc424b55381b4b064cfe247b0a.js": "/fire-alert-web/precache-manifest.3ce72ebc424b55381b4b064cfe247b0a.js",
+    "precache-manifest.178abde250e00070b450c4592cd92f74.js": "/fire-alert-web/precache-manifest.178abde250e00070b450c4592cd92f74.js",
     "service-worker.js": "/fire-alert-web/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/fire-alert-web/static/css/2.89f067aa.chunk.css.map",
     "static/css/main.1672f68a.chunk.css.map": "/fire-alert-web/static/css/main.1672f68a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.89f067aa.chunk.css",
     "static/js/2.8b002ed0.chunk.js",
     "static/css/main.1672f68a.chunk.css",
-    "static/js/main.5e163159.chunk.js"
+    "static/js/main.57f62816.chunk.js"
   ]
 }
