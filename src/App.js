@@ -9,7 +9,7 @@ class App extends Component {
 	};
 
 	componentDidMount() {
-		Axios.get('/api/v1/sensors').then((res) => {
+		Axios.get('https://aq-visualizer.herokuapp.com/api/v1/sensors').then((res) => {
 			const sensors = res.data.data.sensors;
 			this.setState({ sensors: [...sensors] });
 		});
@@ -19,7 +19,7 @@ class App extends Component {
 
 	refresh = () => {
 		setInterval(() => {
-			Axios.get('/api/v1/sensors').then((res) => {
+			Axios.get('https://aq-visualizer.herokuapp.com/api/v1/sensors').then((res) => {
 				const sensors = res.data.data.sensors;
 				this.setState({ sensors: [...sensors] });
 			});
