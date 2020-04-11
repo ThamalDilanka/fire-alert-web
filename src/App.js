@@ -9,7 +9,9 @@ class App extends Component {
 	};
 
 	componentDidMount() {
-		Axios.get('https://aq-visualizer.herokuapp.com/api/v1/sensors').then((res) => {
+		Axios.get(
+			'https://thamaldilanka.github.io/fire-alert-web/api/v1/sensors'
+		).then((res) => {
 			const sensors = res.data.data.sensors;
 			this.setState({ sensors: [...sensors] });
 		});
@@ -19,7 +21,9 @@ class App extends Component {
 
 	refresh = () => {
 		setInterval(() => {
-			Axios.get('https://aq-visualizer.herokuapp.com/api/v1/sensors').then((res) => {
+			Axios.get(
+				'https://thamaldilanka.github.io/fire-alert-web/api/v1/sensors'
+			).then((res) => {
 				const sensors = res.data.data.sensors;
 				this.setState({ sensors: [...sensors] });
 			});
@@ -29,7 +33,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-        <Navbar/>
+				<Navbar />
 				<div className='container'>
 					<Sensors sensors={this.state.sensors} />
 				</div>
