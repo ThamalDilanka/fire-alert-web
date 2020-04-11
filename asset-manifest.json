@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/aq-visualizer-web/static/css/main.1672f68a.chunk.css",
-    "main.js": "/aq-visualizer-web/static/js/main.96235345.chunk.js",
-    "main.js.map": "/aq-visualizer-web/static/js/main.96235345.chunk.js.map",
-    "runtime-main.js": "/aq-visualizer-web/static/js/runtime-main.66f4fd8a.js",
-    "runtime-main.js.map": "/aq-visualizer-web/static/js/runtime-main.66f4fd8a.js.map",
-    "static/css/2.89f067aa.chunk.css": "/aq-visualizer-web/static/css/2.89f067aa.chunk.css",
-    "static/js/2.6687ebe1.chunk.js": "/aq-visualizer-web/static/js/2.6687ebe1.chunk.js",
-    "static/js/2.6687ebe1.chunk.js.map": "/aq-visualizer-web/static/js/2.6687ebe1.chunk.js.map",
-    "index.html": "/aq-visualizer-web/index.html",
-    "precache-manifest.54f63edf04f83e7b9990ecd26998678a.js": "/aq-visualizer-web/precache-manifest.54f63edf04f83e7b9990ecd26998678a.js",
-    "service-worker.js": "/aq-visualizer-web/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/aq-visualizer-web/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.1672f68a.chunk.css.map": "/aq-visualizer-web/static/css/main.1672f68a.chunk.css.map",
-    "static/js/2.6687ebe1.chunk.js.LICENSE.txt": "/aq-visualizer-web/static/js/2.6687ebe1.chunk.js.LICENSE.txt"
+    "main.css": "/fire-alert-web/static/css/main.1672f68a.chunk.css",
+    "main.js": "/fire-alert-web/static/js/main.697cd99f.chunk.js",
+    "main.js.map": "/fire-alert-web/static/js/main.697cd99f.chunk.js.map",
+    "runtime-main.js": "/fire-alert-web/static/js/runtime-main.fd21e1fa.js",
+    "runtime-main.js.map": "/fire-alert-web/static/js/runtime-main.fd21e1fa.js.map",
+    "static/css/2.89f067aa.chunk.css": "/fire-alert-web/static/css/2.89f067aa.chunk.css",
+    "static/js/2.8b002ed0.chunk.js": "/fire-alert-web/static/js/2.8b002ed0.chunk.js",
+    "static/js/2.8b002ed0.chunk.js.map": "/fire-alert-web/static/js/2.8b002ed0.chunk.js.map",
+    "index.html": "/fire-alert-web/index.html",
+    "precache-manifest.ad798c85facadbc99c1fe3f490da6c79.js": "/fire-alert-web/precache-manifest.ad798c85facadbc99c1fe3f490da6c79.js",
+    "service-worker.js": "/fire-alert-web/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/fire-alert-web/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.1672f68a.chunk.css.map": "/fire-alert-web/static/css/main.1672f68a.chunk.css.map",
+    "static/js/2.8b002ed0.chunk.js.LICENSE.txt": "/fire-alert-web/static/js/2.8b002ed0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.66f4fd8a.js",
+    "static/js/runtime-main.fd21e1fa.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.6687ebe1.chunk.js",
+    "static/js/2.8b002ed0.chunk.js",
     "static/css/main.1672f68a.chunk.css",
-    "static/js/main.96235345.chunk.js"
+    "static/js/main.697cd99f.chunk.js"
   ]
 }
