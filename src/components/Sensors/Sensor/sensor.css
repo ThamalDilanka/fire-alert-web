@@ -1,0 +1,104 @@
+.sensor-container-main {
+    max-width: 800px;
+    height: 200px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.sensor-container-left-safe {
+    background-color: rgb(19, 185, 19);
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.sensor-container-left-warning {
+    background-color: rgb(206, 10, 27);
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.location-highlight {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.location-normal {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: large;
+}
+
+.sensor-container-right {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+.active-status-container {
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+}
+.active-status-true {
+    margin: 0;
+    padding: 0 20px 0 0;
+    width: 100%;
+    color: green
+}
+.active-status-false {
+    margin: 0;
+    padding: 0 20px 0 0;
+    width: 100%;
+    color: red;
+}
+.chart-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+}
+.chart-container-left {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.chart-container-right {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.chart {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.name {
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 20%;
+}
