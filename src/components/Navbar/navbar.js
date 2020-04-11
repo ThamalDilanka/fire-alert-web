@@ -12,12 +12,11 @@ class Navbar extends Component {
 					href='https://ThamalDilanka.github.io/fire-alert-web'
 				>
 					<img
-						src='https://i.ibb.co/6Nb0BJD/fire-alert-logo.png'
+						src='https://i.ibb.co/N7L2Gn3/fire-alert-logo-name.png'
 						alt='aq-visualizer-logo'
 						className='d-inline-block align-top'
 						height='50'
 					/>
-					Fire Alert
 				</a>
 			</nav>
 		);
