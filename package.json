@@ -1,6 +1,6 @@
 {
-	"name": "aq-visualizer-web",
-	"homepage": "https://ThamalDilanka.github.io/aq-visualizer-web",
+	"name": "fire-alert",
+	"homepage": "https://ThamalDilanka.github.io/fire-alert-web",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

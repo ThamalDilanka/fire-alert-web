@@ -7,13 +7,17 @@ class Navbar extends Component {
 				className='navbar navbar-light sticky-top'
 				style={{ backgroundColor: '#ebebeb' }}
 			>
-				<a className='navbar-brand' href='www.google.com'>
+				<a
+					className='navbar-brand'
+					href='https://ThamalDilanka.github.io/fire-alert-web'
+				>
 					<img
-						src='https://i.ibb.co/JsKqVZW/aq-visualizer-logo.png'
+						src='https://i.ibb.co/6Nb0BJD/fire-alert-logo.png'
 						alt='aq-visualizer-logo'
 						className='d-inline-block align-top'
 						height='50'
 					/>
+					Fire Alert
 				</a>
 			</nav>
 		);
