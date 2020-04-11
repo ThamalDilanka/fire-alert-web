@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "240cacf0187455faf72bf8520db951d4",
+    "revision": "c13d21c126f522d81357e9b69b4f22f2",
     "url": "/fire-alert-web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fire-alert-web/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "ea952c9b2d1bee7b2938",
+    "revision": "a1ec94b167f2b3a2817a",
     "url": "/fire-alert-web/static/css/main.1672f68a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fire-alert-web/static/js/2.8b002ed0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea952c9b2d1bee7b2938",
-    "url": "/fire-alert-web/static/js/main.697cd99f.chunk.js"
+    "revision": "a1ec94b167f2b3a2817a",
+    "url": "/fire-alert-web/static/js/main.d425411c.chunk.js"
   },
   {
     "revision": "6db3d8e6f26fa6d77afb",
