@@ -6,10 +6,10 @@ class RadialBar extends Component {
 		super(props);
 
 		this.state = {
-			series: [this.props.series * 10],
+			series: [0],
 			options: {
 				chart: {
-                    height: 100,
+					height: 350,
 					type: 'radialBar',
 					toolbar: {
 						show: false,
@@ -18,7 +18,7 @@ class RadialBar extends Component {
 				plotOptions: {
 					radialBar: {
 						startAngle: -180,
-						endAngle: 225,
+						endAngle: 180,
 						hollow: {
 							margin: 0,
 							size: '70%',
@@ -54,14 +54,14 @@ class RadialBar extends Component {
 								offsetY: -10,
 								show: false,
 								color: '#888',
-								fontSize: '15px',
+								fontSize: '17px',
 							},
 							value: {
 								formatter: function (val) {
 									return parseInt(val) / 10;
 								},
 								color: '#111',
-								fontSize: '45px',
+								fontSize: '36px',
 								show: true,
 							},
 						},
@@ -83,7 +83,7 @@ class RadialBar extends Component {
 				stroke: {
 					lineCap: 'round',
 				},
-				labels: ['Percent'],
+				labels: [''],
 			},
 		};
 	}
@@ -94,7 +94,7 @@ class RadialBar extends Component {
 				<div id='chart'>
 					<ReactApexChart
 						options={this.state.options}
-						series={this.state.series}
+						series={[this.props.series * 10]}
 						type='radialBar'
 						height={160}
 					/>

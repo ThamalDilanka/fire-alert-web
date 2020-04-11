@@ -6,7 +6,7 @@
 }
 
 .sensor-container-left-safe {
-    background-color: rgb(19, 185, 19);
+    background-color: rgb(57, 201, 57);
     width: 30%;
     height: 100%;
     text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .sensor-container-left-warning {
-    background-color: rgb(206, 10, 27);
+    background-color: rgb(240, 62, 77);
     width: 30%;
     height: 100%;
     text-align: center;
