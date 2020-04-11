@@ -10,7 +10,7 @@ class App extends Component {
 
 	componentDidMount() {
 		Axios.get(
-			'https://thamaldilanka.github.io/fire-alert-web/api/v1/sensors'
+			'https://fire-alert-solution.herokuapp.com/api/v1/sensors'
 		).then((res) => {
 			const sensors = res.data.data.sensors;
 			this.setState({ sensors: [...sensors] });
@@ -22,7 +22,7 @@ class App extends Component {
 	refresh = () => {
 		setInterval(() => {
 			Axios.get(
-				'https://thamaldilanka.github.io/fire-alert-web/api/v1/sensors'
+				'https://fire-alert-solution.herokuapp.com/api/v1/sensors'
 			).then((res) => {
 				const sensors = res.data.data.sensors;
 				this.setState({ sensors: [...sensors] });
