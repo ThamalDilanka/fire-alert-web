@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6082578779e8ff7ea38983a84f07f1ea",
+    "revision": "037c8ad925b3529d3baa9e6346d560c4",
     "url": "/aq-visualizer-web/index.html"
   },
   {
