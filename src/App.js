@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Axios from 'axios';
+import Axios from 'axios'; // Library that enables to send http requests
 import Sensors from './components/Sensors/Sensors';
 import Navbar from './components/Navbar/navbar';
 
@@ -8,7 +8,9 @@ class App extends Component {
 		sensors: [],
 	};
 
+	// Executes after the app component mount on the web
 	componentDidMount() {
+		// Getting sensor details from the API
 		Axios.get(
 			'https://fire-alert-solution.herokuapp.com/api/v1/sensors'
 		).then((res) => {
@@ -16,9 +18,10 @@ class App extends Component {
 			this.setState({ sensors: [...sensors] });
 		});
 
-		this.refresh();
+		this.refresh(); // Reload the sensor details
 	}
 
+	// Updating the sensor details in every 40 seconds
 	refresh = () => {
 		setInterval(() => {
 			Axios.get(
@@ -30,6 +33,7 @@ class App extends Component {
 		}, 2000);
 	};
 
+	// Render the DOM
 	render() {
 		return (
 			<div>
