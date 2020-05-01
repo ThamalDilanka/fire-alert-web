@@ -30,7 +30,7 @@ class App extends Component {
 				const sensors = res.data.data.sensors;
 				this.setState({ sensors: [...sensors] });
 			});
-		}, 2000);
+		}, 40000);
 	};
 
 	// Render the DOM
